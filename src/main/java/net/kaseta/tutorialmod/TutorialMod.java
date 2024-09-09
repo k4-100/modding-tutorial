@@ -3,6 +3,7 @@ package net.kaseta.tutorialmod;
 import com.mojang.logging.LogUtils;
 
 import net.kaseta.tutorialmod.item.ModItems;
+import net.kaseta.tutorialmod.item.ModCreativeModeTabs;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -44,6 +45,7 @@ public class TutorialMod {
 
         // #region mod items registering
         ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
         // #endregion
 
         // Register the commonSetup method for modloading
