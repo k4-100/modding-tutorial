@@ -19,11 +19,9 @@ public class ModCreativeModeTabs {
           .title(Component.translatable("creativetab.tutorial_tab"))
           .displayItems((pParameters, pOutput) -> {
             pOutput.accept(ModItems.SAPPHIRE.get());
+            pOutput.accept(ModItems.ASTO.get());
           })
           .build());
-  // .title(Component.translatable("creativetab.tutorial_tab"))
-  // .displayItems((pParameters, pOutput) -> {
-  // }));
 
   public static void register(IEventBus eventBus) {
     CREATIVE_MODE_TABS.register(eventBus);
