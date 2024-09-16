@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
           .displayItems((pParameters, pOutput) -> {
             pOutput.accept(ModItems.SAPPHIRE.get());
             pOutput.accept(ModItems.ASTO.get());
+            pOutput.accept(ModItems.PIFPAF.get());
           })
           .build());
 
