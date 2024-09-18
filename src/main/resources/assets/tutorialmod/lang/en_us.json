@@ -1,6 +1,8 @@
 {
+  "creativetab.tutorial_tab": "Sapphire Tutorial Tab",
   "item.tutorialmod.sapphire": "Sapphire",
   "item.tutorialmod.asto": "Asto",
   "item.tutorialmod.pifpaf": "pifpaf",
-  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+  "block.tutorialmod.brazier": "Brazier",
+  "block.tutorialmod.gradient_block": "gradient_block"
 }

@@ -2,6 +2,7 @@ package net.kaseta.tutorialmod.item;
 
 import net.kaseta.tutorialmod.TutorialMod;
 import net.kaseta.tutorialmod.item.ModItems;
+import net.kaseta.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModItems.SAPPHIRE.get());
             pOutput.accept(ModItems.ASTO.get());
             pOutput.accept(ModItems.PIFPAF.get());
+            pOutput.accept(ModBlocks.BRAZIER.get());
+            pOutput.accept(ModBlocks.GRADIENT_BLOCK.get());
           })
           .build());
 

@@ -3,6 +3,7 @@ package net.kaseta.tutorialmod;
 import com.mojang.logging.LogUtils;
 
 import net.kaseta.tutorialmod.item.ModItems;
+import net.kaseta.tutorialmod.block.ModBlocks;
 import net.kaseta.tutorialmod.item.ModCreativeModeTabs;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -43,9 +44,10 @@ public class TutorialMod {
     public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // #region mod items registering
-        ModItems.register(modEventBus);
+        // #region MOD MODULES REGISTRY
         ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // #endregion
 
         // Register the commonSetup method for modloading
