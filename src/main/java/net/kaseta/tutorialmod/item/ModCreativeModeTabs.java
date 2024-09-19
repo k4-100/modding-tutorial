@@ -22,7 +22,7 @@ public class ModCreativeModeTabs {
             pOutput.accept(ModItems.SAPPHIRE.get());
             pOutput.accept(ModItems.ASTO.get());
             pOutput.accept(ModItems.PIFPAF.get());
-            pOutput.accept(ModBlocks.BRAZIER.get());
+            // pOutput.accept(ModBlocks.BRAZIER.get());
             pOutput.accept(ModBlocks.GRADIENT_BLOCK.get());
           })
           .build());
